@@ -7,12 +7,7 @@ public class OOPS
     String StudentName;
     String StudentCity;
 
-    //BEHAVIOURS function
 
-    public void study(){
-        System.out.println(StudentName + "  is studying");
-
-    }
 
     // this method is called constuctor overloading
     // we just have to create a default constuctor with their class name like OOPS()
@@ -44,6 +39,21 @@ public class OOPS
 
     }
 
+    //BEHAVIOURS function
+
+    public void study(){
+        System.out.println(StudentName + "  is studying");
+
+    }
+
+    // method overloading
+
+    public void study(float f)
+    {
+
+        System.out.println("methods overloading with same method name but different parameter and data type");
+        System.out.println(StudentId+ " is in college");
+    }
 
 
     public  void details()

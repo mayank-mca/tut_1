@@ -38,6 +38,9 @@ public class demo1 {
         s3.study();
         s3.details();
 
+        System.out.println("student id is ");
+        // method overloading
+        s3.study(751);
 
 
 
