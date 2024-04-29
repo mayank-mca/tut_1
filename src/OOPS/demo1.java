@@ -42,6 +42,10 @@ public class demo1 {
         // method overloading
         s3.study(751);
 
+        System.out.println("useing of this keyword");
+        OOPS s4;
+        s4=new OOPS();
+        s4.details();
 
 
     }

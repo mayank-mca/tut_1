@@ -16,6 +16,8 @@ public class OOPS
     // this is non parameter default constuctor
     public OOPS()
     {
+
+        this(879,"akhil","banda");
         System.out.println("this is the non parameter constructor");
     }
 
@@ -53,7 +55,18 @@ public class OOPS
 
         System.out.println("methods overloading with same method name but different parameter and data type");
         System.out.println(StudentId+ " is in college");
+        //this function is used to fecth the deatil to the existing class
+        System.out.println(this.StudentCity);
     }
+
+
+
+    /*this keyword functionallty refer to the current invokeing
+
+        for calling current class constuctor from inside different construtor of same class
+*/
+
+
 
 
     public  void details()
