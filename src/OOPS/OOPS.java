@@ -7,7 +7,12 @@ public class OOPS
     String StudentName;
     String StudentCity;
 
+    //BEHAVIOURS function
 
+    public void study(){
+        System.out.println(StudentName+"is studying");
+
+    }
 
     // this method is called constuctor overloading
     // we just have to create a default constuctor with their class name like OOPS()
@@ -27,25 +32,9 @@ public class OOPS
         System.out.println("parameterized constructor : with a single argument");
     }
 
-    //constructor with their three parameter
-
-    public OOPS(int i , String n,String c)
-    {
-
-        StudentId = i;
-        StudentName=n;
-        StudentCity=c;
 
 
-    }
 
-//BEHAVIOURS function
-    // method overloading
-
-    public void study(){
-        System.out.println(StudentName + "  is studying");
-
-    }
 
     public  void details()
     {
