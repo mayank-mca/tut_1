@@ -40,6 +40,7 @@ public class OOPS
     }
 
 //BEHAVIOURS function
+    // method overloading
 
     public void study(){
         System.out.println(StudentName + "  is studying");
