@@ -10,7 +10,7 @@ public class OOPS
     //BEHAVIOURS function
 
     public void study(){
-        System.out.println(StudentName+"is studying");
+        System.out.println(StudentName + "  is studying");
 
     }
 
@@ -32,7 +32,17 @@ public class OOPS
         System.out.println("parameterized constructor : with a single argument");
     }
 
+    //constructor with their three parameter
 
+    public OOPS(int i , String n,String c)
+    {
+
+        StudentId = i;
+        StudentName=n;
+        StudentCity=c;
+
+
+    }
 
 
 

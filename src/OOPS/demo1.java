@@ -9,6 +9,7 @@ public class demo1 {
 
         OOPS s1;
         OOPS s2;
+        OOPS s3;
         s1 = new OOPS(); 
 
 
@@ -30,17 +31,17 @@ public class demo1 {
         s2.study();
         s2.details();
 
+        // details without using the object input using with the constructor
+        System.out.println("this would be use as the detail fill automatic");
+        s3= new OOPS(751,"mudit","delhi");
 
-
-
-
+        s3.study();
+        s3.details();
 
 
 
 
     }
-
-
 
 
 }
