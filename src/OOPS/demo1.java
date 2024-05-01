@@ -1,5 +1,7 @@
 package OOPS;
 
+import INHERITANCE.dog;
+
 public class demo1 {
 
     public static void main(String[] args) {
@@ -46,6 +48,15 @@ public class demo1 {
         OOPS s4;
         s4=new OOPS();
         s4.details();
+
+
+
+        // inheritance concept
+
+        dog d1= new dog();
+
+        d1.eating();
+        System.out.println(d1.color);
 
 
     }
