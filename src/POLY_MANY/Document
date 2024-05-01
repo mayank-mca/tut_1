@@ -1,0 +1,15 @@
+                    //METHODS
+
+
+public void test()  // method name with argument ,return type  and modifiers
+{
+
+// body  of the method (functionality)
+
+}
+
+
+POLYMORPHISM HAVEING TOW TYPE
+
+1. RUN TIME   ( OBJECT ARE BOUND WITH THEIR  FUNCTIONALITY  AT THE COMPILE TIME ) ACHIVE BY THE OVERLOADING
+2. COMPILE TIME     ( OBJECT ARE BOUND WITH THEIR  FUNCTIONALITY  AT THE RUN TIME ) ACHIVE BY THE OVERRDING WITH THE HELP OF INHERITANCE
