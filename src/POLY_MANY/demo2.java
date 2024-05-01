@@ -11,7 +11,7 @@ public class demo2 {
         STUDENT s1=new STUDENT();
 
        // s1.reading();
-        s1.reading("lets have full stack php");// compile time polymorphism
+        s1.reading("lets have full stack php");// compile time polymorphism we are use
     }
 
 }
